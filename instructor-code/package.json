@@ -21,11 +21,11 @@
     "eject": "react-scripts eject"
   },
   "proxy": {
-    "/auth/callback":{
+    "/auth/callback": {
       "target": "http://localhost:3040"
     },
-    "/api":{
-      "target":"http://localhost:3040"
+    "/api": {
+      "target": "http://localhost:3040"
     }
   }
 }
